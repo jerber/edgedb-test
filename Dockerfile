@@ -1,6 +1,6 @@
 ARG DATABASE_URL
 
-FROM edgedb/edgedb
+FROM edgedb/edgedb:2-rc2
 
 ENV EDGEDB_SERVER_SECURITY=insecure_dev_mode
 
